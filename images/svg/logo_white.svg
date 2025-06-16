@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.6218227"
-     inkscape:cx="-12.014542"
-     inkscape:cy="76.473516"
+     inkscape:zoom="4.2639608"
+     inkscape:cx="116.32377"
+     inkscape:cy="62.969622"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -73,13 +73,50 @@
          d="M 9.7697187,19.001692 27.71701,8.6398182 45.664302,19.001691 l 0,20.723748 L 27.717011,50.087313 9.7697191,39.725439 Z"
          transform="matrix(1.3405515,0,0,1.3405515,-10.251867,-11.58262)" />
     </clipPath>
+    <filter
+       id="mask-powermask-path-effect1_inverse"
+       inkscape:label="filtermask-powermask-path-effect1"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect1_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect1_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <path
+         sodipodi:type="star"
+         style="fill:#0389ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="path1"
+         inkscape:flatsided="true"
+         sodipodi:sides="6"
+         sodipodi:cx="27.71701"
+         sodipodi:cy="29.363565"
+         sodipodi:r1="20.723747"
+         sodipodi:r2="17.94729"
+         sodipodi:arg1="-2.6179939"
+         sodipodi:arg2="-2.0943951"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 9.7697187,19.001692 27.71701,8.6398182 45.664302,19.001691 l 0,20.723748 L 27.717011,50.087313 9.7697191,39.725439 Z" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        d="M 69.462472,105.62458 39.023861,14.04859"
        id="path3" />
     <path
@@ -112,5 +149,22 @@
          d="M 44.574219,-0.1484375 20.443359,41.644531 h 39.933594 v -7.9375 H 34.193359 L 51.447266,3.8203125 Z"
          id="path9-9-0" />
     </g>
+    <path
+       sodipodi:type="star"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.23322;stroke-dasharray:none;stroke-opacity:1"
+       id="path8-5-8"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="27.71701"
+       sodipodi:cy="29.363565"
+       sodipodi:r1="20.723747"
+       sodipodi:r2="17.94729"
+       sodipodi:arg1="-2.6179939"
+       sodipodi:arg2="-2.0943951"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 9.7697187,19.001692 27.71701,8.6398182 45.664302,19.001691 l 0,20.723748 L 27.717011,50.087313 9.7697191,39.725439 Z"
+       transform="matrix(1.3461362,0,0,1.3461362,-9.5296212,-11.746108)"
+       clip-path="url(#clipPath1)" />
   </g>
 </svg>

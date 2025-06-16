@@ -1,3 +1,5 @@
+<?php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(
         !empty($_POST['firstname'])
@@ -24,3 +26,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+
+?>

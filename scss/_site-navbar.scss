@@ -8,10 +8,12 @@
 	}
 }
 .site-nav {
-	position: absolute;
+        background: #ffffff;
+	position: sticky;
+        top: 0;
 	width: 100%;
 	// left: 0;
-	z-index: 7;
+	z-index: 10;
 	a {
 		position: relative;
 		z-index: 9;
@@ -20,9 +22,10 @@
 }
 
 .site-nav {
-        padding-top: 20px;
-	padding-bottom: 20px;
-        box-shadow: 0px 10px 10px #bbbbbb;
+        height: 5rem;
+        box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
 	h1 {
 		margin: 0;
 		padding: 0;
@@ -223,8 +226,8 @@
 						color: rgba($black, .5);
 						
 						&:hover {
-							color: $primary;
-							
+							color: $black;
+                                                        /*HERE*/
 						}
 					}
 					

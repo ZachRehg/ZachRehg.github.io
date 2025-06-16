@@ -255,9 +255,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .site-nav {
-  position: absolute;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
   width: 100%;
-  z-index: 7;
+  z-index: 10;
 }
 .site-nav a {
   position: relative;
@@ -266,10 +268,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .site-nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  -webkit-box-shadow: 0px 10px 10px #bbbbbb;
-          box-shadow: 0px 10px 10px #bbbbbb;
+  height: 5rem;
+  -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .site-nav h1 {
   margin: 0;
@@ -429,7 +436,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: rgba(0, 0, 0, 0.5);
 }
 .site-nav.dark .site-navigation .site-menu > li > a:hover {
-  color: #0389ff;
+  color: #000000;
+  /*HERE*/
 }
 .site-nav.dark .site-navigation .site-menu > li.active > a {
   color: #000000;

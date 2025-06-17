@@ -35,11 +35,19 @@
 }
 .portfolio-item {
 	overflow: hidden;
+        height: 20rem;
 	img {
+                display: block;
 		transition: .3s all ease;
-		position: relative;
 		transform: scale(1.0);
+                height: 20rem;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
 	}
+        .overlay {
+                height: 20rem;
+        }
 	&:hover {
 		img {
 			transform: scale(1.09);

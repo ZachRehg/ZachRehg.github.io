@@ -1164,6 +1164,7 @@ figure.dotted-bg:before {
   }
 }
 .portfolio-single-inner .heading-portfolio-single-h2 {
+  margin-top: 5rem;
   margin-bottom: 40px;
   font-weight: 900;
 }
@@ -1241,6 +1242,29 @@ figure.dotted-bg:before {
   top: 50px;
 }
 
+.detail-v1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 16rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.detail-v1 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
 .detail-v1 .detail-label {
   display: block;
   font-size: 11px;
@@ -1446,14 +1470,24 @@ figure.dotted-bg:before {
 
 .portfolio-item {
   overflow: hidden;
+  height: 20rem;
 }
 .portfolio-item img {
+  display: block;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  position: relative;
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
+  height: 20rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.portfolio-item .overlay {
+  height: 20rem;
 }
 .portfolio-item:hover img {
   -webkit-transform: scale(1.09);

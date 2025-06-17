@@ -473,7 +473,15 @@ var portfolioItemClick = function() {
 		href = $(this).attr('href');
 
 		if ( $('#portfolio-single-holder > div').length ) {
-			$('#portfolio-single-holder > div').remove();
+function initSliders() {
+  $('.owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    nav: true,
+    margin: 10
+  });
+}			$('#portfolio-single-holder > div').remove();
 		} 
 
 		TweenMax.to('.loader-portfolio-wrap', 1, { top: '-50px', autoAlpha: 1, display: 'block', ease: Power4.easeOut });
@@ -595,12 +603,4 @@ var owlSingleSlider = function () {
 	}
 }
 
-
 })
-
-
-
-
-
-
-

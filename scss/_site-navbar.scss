@@ -10,7 +10,9 @@
 
 .nav-icon {
         position: absolute;
-        bottom: -50px;
+        bottom: -30px;
+        height: 5rem;
+        filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.1));
 }
 
 .site-nav {
@@ -235,6 +237,9 @@
 							color: $black;
                                                         /*HERE*/
 						}
+                                                &.active {
+                                                        color: $primary;
+                                                }
 					}
 					
 					

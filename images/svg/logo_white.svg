@@ -136,7 +136,7 @@
   </defs>
   <path
      sodipodi:type="star"
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
      id="path8-5"
      inkscape:flatsided="true"
      sodipodi:sides="6"
@@ -148,7 +148,7 @@
      sodipodi:arg2="-2.0943951"
      inkscape:rounded="0"
      inkscape:randomized="0"
-     transform="matrix(1.3405515,0,0,1.3405515,-9.37483,-11.582122)"
+     transform="matrix(1.3322066,0,0,1.3322066,-9.1435343,-11.337086)"
      mask="none"
      d="M 9.7697187,19.001692 27.71701,8.6398182 45.664302,19.001691 l 0,20.723748 L 27.717011,50.087313 9.7697191,39.725439 Z" />
   <g

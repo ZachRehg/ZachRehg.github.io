@@ -256,7 +256,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .nav-icon {
   position: absolute;
-  bottom: -50px;
+  bottom: -30px;
+  height: 5rem;
+  -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.1));
 }
 
 .site-nav {
@@ -443,6 +446,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .site-nav.dark .site-navigation .site-menu > li > a:hover {
   color: #000000;
   /*HERE*/
+}
+.site-nav.dark .site-navigation .site-menu > li > a.active {
+  color: #0389ff;
 }
 .site-nav.dark .site-navigation .site-menu > li.active > a {
   color: #000000;

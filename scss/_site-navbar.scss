@@ -7,9 +7,15 @@
 		color: $white;
 	}
 }
+
+.nav-icon {
+        position: absolute;
+        bottom: -50px;
+}
+
 .site-nav {
         background: #ffffff;
-	position: sticky;
+	position: fixed;
         top: 0;
 	width: 100%;
 	// left: 0;
